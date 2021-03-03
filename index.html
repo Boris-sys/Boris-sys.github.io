@@ -11,8 +11,9 @@
     <!-- CSS de icono Ionicons -->    
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
-    <!-- CSS de Google fonts para Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS de Google fonts para Poppins -->   
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;700&display=swap" rel="stylesheet">
+ 
 
     <!-- Mi CSS propio -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -23,16 +24,47 @@
     <div class="d-flex">
       <div id="sidebar-container" class="bg-primary">
         <div class="logo">
-          <h4>Las Herramientas Del Boris</h4>
+          <h4 class="text-light font-weight-bold">Las Herramientas Del Boris</h4>
         </div>
         <div class="menu">
-          <a href="#"><i class="icon ion-md-apps"></i> Op 1</a>
-          <a href="#"><i class="icon ion-md-airplane"></i>Op 2</a>
-          <a href="#"><i class="icon ion-md-stopwatch"></i>Op 3</a>
-          <a href="#"><i class="icon ion-md-moon"></i>Op 4</a>
-          <a href="#"><i class="icon ion-md-finger-print"></i>Opcion 5</a>
+          <a style="text-decoration:none" href="#" class="d-block text-light p-3"><i class="icon ion-md-apps m-3 lead"></i>Op 1</a>
+          <a href="#" class="d-block text-light p-3"><i class="icon ion-md-airplane m-3 lead"></i>Op 2</a>
+          <a href="#" class="d-block text-light p-3"><i class="icon ion-md-stopwatch m-3 lead"></i>Op 3</a>
+          <a href="#" class="d-block text-light p-3"><i class="icon ion-md-moon m-3 lead"></i>Op 4</a>
+          <a href="#" class="d-block text-light p-3"><i class="icon ion-md-finger-print m-3 lead"></i>Op 5</a>
         </div>
       </div>
+
+        <div id="login" class="w-100">
+
+          <body class="text-center">
+    
+            <main class="form-signin">
+              <form>
+                <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                <label for="inputEmail" class="visually-hidden">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                <label for="inputPassword" class="visually-hidden">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+              </form>
+            </main>
+            
+            
+                
+              
+            
+            </body>
+
+        </div>
+
     </div>
 
     <!-- Hello world que venia por defecto y voy a guardarlo para recordar donde empeze cuando sea un millonario exitoso    
